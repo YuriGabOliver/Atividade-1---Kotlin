@@ -1,0 +1,19 @@
+fun main() {
+    var idade: Int = 19
+    var idadeDois: Int = 20
+    var altura: Double = 1.78
+    var nome: String = "Yuri"
+    var ind: Boolean = true
+    var TotalId: Int = idade + idadeDois
+    var TotalAlt: Double = altura * 2
+
+    println(idade)
+    println(idadeDois)
+    println(altura)
+    println(nome)
+    println("Essa pessoa é um estudande? $ind")
+    println("Idade : $TotalId")
+    println("Altura dobrada: $TotalAlt")
+    println("Olá, $nome!")
+
+}
