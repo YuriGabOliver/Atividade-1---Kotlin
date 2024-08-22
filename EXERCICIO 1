@@ -1,0 +1,25 @@
+fun main() {
+    val nome: String = "Yuri"
+    val id: Int = 19
+    val SalMensal: Double = 1840.0
+    val mes: Int = 12
+    val prod: Int = 10
+    val MultSal: Double = 1840.0 * 12
+    var SalLiquid: Double = SalMensal * 0.92
+    val salario: Double = SalLiquid * 12
+    val desc: String = "8%"
+
+    println(SalLiquid)
+    println("Nome: $nome")
+    println("Idade: $id")
+    println("Salario: $SalMensal")
+    println("Mes: $mes")
+    println("Desconto Salario Anual Bruto: $desc")
+    println("Quantidade de produtos comprados: $prod")
+
+    println()
+    println("O seu salario anual bruto e de: $MultSal")
+    println("$nome, O seu Salario Anual Liquido e de: $salario")
+
+
+}
